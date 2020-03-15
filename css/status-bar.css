@@ -11,3 +11,6 @@
 .status-bar .status-bar_battery-level {
   margin-left: 5px;
 }
+.status-bar {
+  display: sticky;
+}
