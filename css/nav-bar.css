@@ -15,4 +15,24 @@
 
 .nav i {
   font-size: 20px;
+  color: black;
+}
+
+.nav .nav__list-link {
+  position: relative;
+}
+
+.nav .nav__badge {
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  width: 17px;
+  height: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+  background-color: #dc5d46;
+  font-size: 10px;
 }

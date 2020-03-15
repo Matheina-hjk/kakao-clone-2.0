@@ -3,6 +3,8 @@
 @import "status-bar.css";
 @import "header.css";
 @import "nav-bar.css";
+@import "friend.css";
+@import "friends.css";
 
 * {
   box-sizing: border-box;
@@ -18,4 +20,9 @@ body {
 
 a {
   color: ingerit;
+  text-decoration: none;
+}
+
+header {
+  color: black;
 }
