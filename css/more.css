@@ -1,0 +1,44 @@
+.more .friend__name {
+  font-size: 20px;
+  font-weight: 600;
+}
+.more .friend__email {
+  font-size: 12px;
+  color: darkgray;
+}
+.more .friend__column i {
+  cursor: pointer;
+}
+.more .more__btn-list {
+  margin-top: 25px;
+  border-top: 1px solid #f7f7f7;
+  border-bottom: 1px solid #f7f7f7;
+}
+.more .more__btn-list .more__btn {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.more .more__btn-list ol {
+  display: flex;
+  margin: 15px;
+  padding: 8px;
+}
+.more .more__btn-list .more__btn .more__btn-icon {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  color: rgb(255, 222, 139);
+  cursor: pointer;
+}
+.more .more__btn-list .more__btn .more__btn-title {
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  opacity: 0.6;
+}
+.header .header__header-column .header__icon i {
+  color: black;
+}

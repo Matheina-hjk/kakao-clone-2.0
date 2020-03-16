@@ -1,0 +1,97 @@
+.header-wrapper {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  padding: 10px 20px;
+}
+.chat__screen {
+  background-image: url("../images/background.jpg");
+  padding: 10px 0px;
+  padding-top: 100px;
+  min-height: 100000px;
+}
+
+.chat__messages {
+  display: flex;
+  flex-direction: column;
+}
+.message__content {
+  padding: 10px 20px;
+}
+.message__content .message__author {
+  font-size: 13px;
+  font-weight: 400;
+}
+.message__content .message__bubble {
+  background-image: linear-gradient(to right, #de6262, #ffb88c);
+  border-radius: 40px;
+  padding: 5px 10px;
+  margin: 10px 0px;
+  width: 100%;
+  font-size: 14px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
+    rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
+}
+.message__content .message__bubble2 {
+  background-image: linear-gradient(to right, #7474bf, #49a09d);
+  border-radius: 40px;
+  padding: 5px 10px;
+  margin: 10px 0px;
+  width: 100%;
+  font-size: 14px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
+    rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
+}
+.chat__messages .chat__timestamp {
+  font-size: 11px;
+  background-color: #ffffffe0;
+  border-radius: 40px;
+  padding: 5px 0px;
+  margin: 7px auto;
+  width: 40%;
+  text-align: center;
+  left: 0;
+  right: 0;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
+    rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
+  text-transform: uppercase;
+}
+.incoming-message {
+  display: flex;
+}
+.sent__message {
+  align-self: flex-end;
+}
+.incoming-message img {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  padding: 10px 0px;
+  margin-left: 20px;
+}
+.chat__write {
+  position: fixed;
+  bottom: 20px;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fcfcfc;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
+    rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
+  padding: 10px 50px;
+  border: none;
+  font-size: 16px;
+}
+.chat__write-colomn :focus {
+  outline: none;
+}
+.chat__write-colomn i {
+  font-size: 20px;
+  margin: 4px 0px;
+  padding: 0 5px;
+}

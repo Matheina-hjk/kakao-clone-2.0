@@ -17,6 +17,8 @@
 .friend .friend__column {
   display: flex;
   align-items: center;
+  color: black;
+  padding: 10px;
 }
 .friend .friend__avatar {
   margin-right: 15px;
